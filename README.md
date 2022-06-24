@@ -27,4 +27,10 @@ docker login -u katiatamazirt -p rayaneetsamy2
 docker image tag myalpine:version12 katiatamazirt/myalpine:version12
 docker push katiatamazirt/myalpine:version12
 ## mettre à jour mon dossier sur github
+1 git commit -am"solution exo01"
+### il me demande l'identification donc je passe par la suite
+2 git config --global user.email katiatamazirt@hotmail.com
+3 git config --global user.name katiatamazirt
+6 git commit -am"solution exo01"
+7 git push origin main
 
