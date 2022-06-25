@@ -23,7 +23,7 @@ cat archi-ex1.tar | docker import - myalpine:version12
 docker history myalpine:version12
 
 ## mettez cette image dans docker hub sous votre compte docker hub
-docker login -u katiatamazirt -p rayaneetsamy2
+docker login -u katiatamazirt -p my-passeword
 docker image tag myalpine:version12 katiatamazirt/myalpine:version12
 docker push katiatamazirt/myalpine:version12
 ## mettre à jour mon dossier sur github
